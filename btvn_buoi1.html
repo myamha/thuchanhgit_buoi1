@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Giới Thiệu Bản Thân - Nguyễn Thị Mỹ Hà</title>
+    
+    <!-- 1. Biểu tượng trang web (Favicon) -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- 2. Thẻ <style> khớp theo mẫu bài học -->
+    <style>
+        /* Định dạng class theo mẫu */
+        .tieude {
+            color: blue;
+        }
+
+        /* Định dạng id theo mẫu */
+        #gioithieu {
+            background-color: lightyellow;
+        }
+
+        /* Trang trí thêm cho bảng thời khóa biểu */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            text-align: center;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Tiêu đề chính dùng class "tieude" theo mẫu -->
+    <h1 class="tieude">GIỚI THIỆU BẢN THÂN</h1>
+
+    <!-- Ảnh đại diện -->
+    <img src="https://instagram.fhan5-9.fna.fbcdn.net/v/t51.82787-19/814603092_18029633819908970_8764431586719930348_n.jpg?_nc_cat=103&_nc_map=urlgen_bucketless&ig_cache_key=GFTbjTBqG0Q-2w1AAOyXp5gXhKF5bmNDAQAB0j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=MuwkVStemhgQ7kNvwGRwh41&_nc_oc=AdoWRybobgUvrqNPCzRTH7u0IYLaAe-XkiD4hgxJ0nFlxOi2Vb_Rbdb-67cCckIz0kk&_nc_zt=24&_nc_ht=instagram.fhan5-9.fna&_nc_gid=Dm-eabVQEpz94VgVvKIx7w&_nc_ss=7baaf&oh=00_AQPnqxlDdgLqzt8RFlgYng5sTfYj5_xEF3eVbAefoJlujg&oe=6AE004DC" alt="Mỹ Hà" width="150px">
+    <br>
+
+    <!-- Thẻ h2 dùng id "gioithieu" theo mẫu -->
+    <h2 id="gioithieu">About me</h2>
+    <p><b>Họ và tên: Nguyễn Thị Mỹ Hà</b></p>
+    <p><b>Quê quán:</b> <u>Hà Nội</u></p>
+    <p><b>Nơi ở hiện tại:</b> <i>Hà Nội</i></p>
+
+    <!-- Giới thiệu ngắn kết hợp Block (div, p) và Inline (span) -->
+    <h2>Giới thiệu ngắn</h2>
+    <div>
+        <!-- Dòng chữ áp dụng class "tieude" theo mẫu -->
+        <p class="tieude">Xin chào! Em là sinh viên năm nhất ngành <span>MIS-TMU</span> (Hệ thống thông tin quản lý).</p>
+    </div>
+
+    <!-- Sở thích (ul) -->
+    <h2>Sở Thích</h2>
+    <ul>
+        <li>Nghe nhạc</li>
+        <li>Đi cà phê cùng bạn bè</li>
+        <li>Vẽ tranh / Tô tượng</li>
+    </ul>
+
+    <!-- Mục tiêu / Ước mơ (ol) -->
+    <h2>Mục Tiêu Cá Nhân</h2>
+    <ol>
+        <li>Hoàn thành tốt các môn học ở trường đại học.</li>
+        <li>Cải thiện kỹ năng tiếng Anh giao tiếp và chuyên ngành.</li>
+        <li>Trở thành một BA chuyên nghiệp.</li>
+    </ol>
+
+    <!-- Bảng thời khóa biểu (table, tr, th, td, colspan) -->
+    <h2>Thời Khóa Biểu Học Tập</h2>
+    <table>
+       <tr>
+            <th>Buổi</th>
+            <th>Thứ 2</th>
+            <th>Thứ 3</th>
+            <th>Thứ 4</th>
+            <th>Thứ 5</th>
+            <th>Thứ 6</th>
+            <th>Thứ 7</th>
+            <th>Chủ Nhật</th>
+        </tr>
+        <tr>
+            <td>Sáng</td>
+            <td>Kinh tế thương mại đại cương</td>
+            <!-- Gộp Thứ 3 cả sáng và chiều -->
+            <td rowspan="2">Tự học</td>
+            <td>Tự học</td>
+            <td>Tự học</td>
+            <td>Tự học</td>
+            <td>Tự học ứng dụng AI trong kinh doanh</td>
+            <!-- Gộp Chủ Nhật cả sáng và chiều -->
+            <td rowspan="2">Đi chơi</td>
+        </tr>
+        <tr>
+            <td>Chiều</td>
+            <td>Tự học</td>
+            <td>Cơ sở dữ liệu</td>
+            <td>Phương pháp nghiên cứu khoa học</td>
+            <td>Toán đại cương</td>
+            <td>Nghỉ ngơi</td>
+        </tr>
+    </table>
+
+    <!-- Điều đặc biệt -->
+    <h2>Điều Đặc Biệt Về Mỹ</h2>
+    <p><u>Đặc điểm nổi bật:</u> Có thể <i>đọc truyện 12 tiếng liên tục</i> mà vẫn thấy thiếu!</p>
+
+    <!-- Nhúng Video YouTube bằng iframe -->
+    <h2>Video Yêu Thích</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <!-- Thông tin liên hệ -->
+    <h2>Thông Tin Liên Hệ</h2>
+    <p>Tìm Mỹ Hà tại: <a href="https://www.instagram.com/mya.m_ha/" target="_blank">Instagram</a></p>
+</body>
+</html>
